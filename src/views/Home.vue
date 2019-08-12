@@ -23,7 +23,7 @@
 		<el-col :span="24" class="main">
 			<aside :class="collapsed?'menu-collapsed':'menu-expanded'">
 				<!--导航菜单-->
-				<el-menu :default-active="$route.path" class="el-menu-vertical-demo" @open="handleopen" @close="handleclose" @select="handleselect"
+				<el-menu :default-active="$route.path" class="el-menu-vertical-demo expanded" @open="handleopen" @close="handleclose" @select="handleselect"
 					 unique-opened router v-show="!collapsed">
 					<template v-for="(item,index) in $router.options.routes" v-if="!item.hidden">
 						<el-submenu :index="index+''" v-if="!item.leaf">
@@ -216,7 +216,7 @@
 					height: 100%;
 				}
 				.collapsed{
-					width:60px;
+					width:60px ;
 					.item{
 						position: relative;
 					}
@@ -228,6 +228,11 @@
 						height:auto;
 						display:none;
 					}
+
+				}
+				.expanded{
+					width:230px !important;
+					
 
 				}
 			}
