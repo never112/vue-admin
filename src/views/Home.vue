@@ -151,6 +151,8 @@
 			line-height: 60px;
 			background: $color-primary;
 			color:#fff;
+			font-family: "msyh";
+			font-weight:  bold;
 			.userinfo {
 				text-align: right;
 				padding-right: 35px;
@@ -158,6 +160,7 @@
 				.userinfo-inner {
 					cursor: pointer;
 					color:#fff;
+					font-weight:  normal;
 					img {
 						width: 40px;
 						height: 40px;
@@ -183,6 +186,7 @@
 				}
 				.txt {
 					color:#fff;
+			
 				}
 			}
 			.logo-width{
@@ -202,6 +206,7 @@
 		.main {
 			display: flex;
 			// background: #324057;
+			font-family: 'msyh';
 			position: absolute;
 			top: 60px;
 			bottom: 0px;

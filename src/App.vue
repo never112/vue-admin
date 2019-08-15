@@ -17,13 +17,14 @@ export default {
 </script>
 
 <style lang="scss">
+@import './common/font/font.css';
 body {
 	margin: 0px;
 	padding: 0px;
 	/*background: url(assets/bg1.jpg) center !important;
 		background-size: cover;*/
 	// background: #1F2D3D;
-	font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+	font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,msyh, Microsoft YaHei, SimSun, sans-serif;
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
 }
