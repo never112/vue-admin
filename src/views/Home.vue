@@ -220,6 +220,7 @@
 				.el-menu{
 					height: 100%;
 				}
+				
 				.collapsed{
 					width:60px ;
 					.item{
@@ -233,6 +234,10 @@
 						height:auto;
 						display:none;
 					}
+					
+					.el-menu-item{
+					min-width: 60px;
+				}
 
 				}
 				.expanded{
