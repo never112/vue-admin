@@ -61,7 +61,7 @@
                   type: 'error'
                 });
               } else {
-                sessionStorage.setItem('user', JSON.stringify(user));
+                localStorage.setItem('user', JSON.stringify(user));
                 this.$router.push({ path: '/table' });
               }
             });
